@@ -23,7 +23,7 @@ Input plugins can be used to bundle additional resources for frameworks, languag
 - linuxdeploy-plugin-conda_ creates a Miniconda environment that can be used to bundle Python software or provide a portable Python interpreter to software that uses Python for scripting.
 
 .. _linuxdeploy-plugin-qt: https://github.com/linuxdeploy/linuxdeploy-plugin-qt
-.. _linuxdeploy-plugin-conda: https://github.com/TheAssassin/linuxdeploy-plugin-conda
+.. _linuxdeploy-plugin-conda: https://github.com/linuxdeploy/linuxdeploy-plugin-conda
 
 
 Output plugins
