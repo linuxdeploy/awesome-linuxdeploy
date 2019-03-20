@@ -37,3 +37,20 @@ Output plugins can be used to automatically create output formats like `AppImage
 - linuxdeploy-plugin-appimage_
 
 .. _linuxdeploy-plugin-appimage: https://github.com/linuxdeploy/linuxdeploy-plugin-appimage
+
+
+Projects using linuxdeploy
+--------------------------
+
+Many projects use linuxdeploy already to build AppDirs (and in most cases AppImages). This is a (really incomplete) collection of example projects which showcase how to use linuxdeploy, and might serve as an inspiration for your own scripts.
+
+- linuxdeploy_, linuxdeploy-plugin-qt_: Of course, our tools are shipped as AppImages. The scripts aren't overly interesting, you find better information in `the AppImage packaging guide <https://docs.appimage.org/packaging-guide/from-source>`_.
+- Pext_, the *Python Extendable Tool*: They use linuxdeploy to create AppImages for their Python GUI software using linuxdeploy-plugin-conda_. It uses PyQt5_, which turned out to be a little problematic to bundle. However, after a lot of work, the team managed to create a `not-so-long script <https://github.com/Pext/Pext/blob/master/travis/build-appimage.sh>`_ to build AppImages. Python app developers who intend to ship their app as AppImage might find the script useful.
+- Calamares_, the cross-distro installer framework: AppImage building has been added recently in the form of a `build script <https://github.com/calamares/calamares/blob/master/ci/AppImage.sh>`_ in the repository. Calamares uses Python modules for some installation tasks via boost-python_, hence there was an interest in bundling a Python interpreter via linuxdeploy-plugin-conda_. This added some complexity to the build process, though, as now, Calamares must be built against this Python distribution, and may not use the system one. If your project uses Python through some wrapper like boost-python_ and you are curious to see how to successfully build AppImages for such an application, please check out the `Calamares AppImage build script <https://github.com/calamares/calamares/blob/master/ci/AppImage.sh>`_.
+- AppImageUpdate_, the efficient AppImage updating solution: AppImageUpdate provides both a Qt-based UI and a CLI tool. Both are easy to bundle into AppImages, the challenge here is to build two AppImages from one build directory. `The build script <https://github.com/AppImage/AppImageUpdate/blob/rewrite/resources/build-appimages.sh>`_ shows that it's not difficult, and may serve people in a similar situation as source for inspiration.
+
+.. _Pext: https://pext.io
+.. _Calamares: https://calamares.io
+.. _AppImageUpdate: https://github.com/AppImage/AppImageUpdate/
+
+
