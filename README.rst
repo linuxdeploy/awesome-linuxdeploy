@@ -52,5 +52,6 @@ Many projects use linuxdeploy already to build AppDirs (and in most cases AppIma
 .. _Pext: https://pext.io
 .. _Calamares: https://calamares.io
 .. _AppImageUpdate: https://github.com/AppImage/AppImageUpdate/
+.. _boost-python: https://www.boost.org/doc/libs/1_69_0/libs/python/doc/html/index.html
 
 
