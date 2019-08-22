@@ -27,7 +27,7 @@ Input plugins can be used to bundle additional resources for frameworks, languag
 .. _linuxdeploy-plugin-qt: https://github.com/linuxdeploy/linuxdeploy-plugin-qt
 .. _linuxdeploy-plugin-conda: https://github.com/linuxdeploy/linuxdeploy-plugin-conda
 .. _linuxdeploy-plugin-python: https://github.com/niess/linuxdeploy-plugin-python
-.. _linuxdeploy-plugin-checkrt: https://github.com/TheAssassin/linuxdeploy-plugin-checkrt
+.. _linuxdeploy-plugin-checkrt: https://github.com/linuxdeploy/linuxdeploy-plugin-checkrt
 .. _AppImageKit-checkrt: https://github.com/darealshinji/AppImageKit-checkrt
 
 
@@ -50,10 +50,12 @@ Many projects use linuxdeploy already to build AppDirs (and in most cases AppIma
 - Pext_, the *Python Extendable Tool*: They use linuxdeploy to create AppImages for their Python GUI software using linuxdeploy-plugin-conda_. It uses PyQt5_, which turned out to be a little problematic to bundle. However, after a lot of work, the team managed to create a `not-so-long script <https://github.com/Pext/Pext/blob/master/travis/build-appimage.sh>`_ to build AppImages. Python app developers who intend to ship their app as AppImage might find the script useful.
 - Calamares_, the cross-distro installer framework: AppImage building has been added recently in the form of a `build script <https://github.com/calamares/calamares/blob/master/ci/AppImage.sh>`_ in the repository. Calamares uses Python modules for some installation tasks via boost-python_, hence there was an interest in bundling a Python interpreter via linuxdeploy-plugin-conda_. This added some complexity to the build process, though, as now, Calamares must be built against this Python distribution, and may not use the system one. If your project uses Python through some wrapper like boost-python_ and you are curious to see how to successfully build AppImages for such an application, please check out the `Calamares AppImage build script <https://github.com/calamares/calamares/blob/master/ci/AppImage.sh>`_.
 - AppImageUpdate_, the efficient AppImage updating solution: AppImageUpdate provides both a Qt-based UI and a CLI tool. Both are easy to bundle into AppImages, the challenge here is to build two AppImages from one build directory. `The build script <https://github.com/AppImage/AppImageUpdate/blob/rewrite/resources/build-appimages.sh>`_ shows that it's not difficult, and may serve people in a similar situation as source for inspiration.
+- MediaElch_ is a MediaManager for Kodi that provides information about movies, TV shows etc. Also works with other media centers. They use a variety of plugins to bundle their software and assemble an AppImage. Please refer to `the build script <https://github.com/Komet/MediaElch/blob/master/scripts/packaging/package.sh>`_ for more information on their usage of linuxdeploy.
 
 .. _Pext: https://pext.io
 .. _Calamares: https://calamares.io
 .. _AppImageUpdate: https://github.com/AppImage/AppImageUpdate/
 .. _boost-python: https://www.boost.org/doc/libs/1_69_0/libs/python/doc/html/index.html
+.. _MediaElch: https://github.com/Komet/MediaElch/
 
 
