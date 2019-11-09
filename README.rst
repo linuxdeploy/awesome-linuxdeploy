@@ -53,9 +53,9 @@ Many projects use linuxdeploy already to build AppDirs (and in most cases AppIma
 - MediaElch_ is a MediaManager for Kodi that provides information about movies, TV shows etc. Also works with other media centers. They use a variety of plugins to bundle their software and assemble an AppImage. Please refer to `the build script <https://github.com/Komet/MediaElch/blob/master/scripts/packaging/package.sh>`_ for more information on their usage of linuxdeploy.
 
 .. _Pext: https://pext.io
+.. _PyQt5: https://www.riverbankcomputing.com/static/Docs/PyQt5/
 .. _Calamares: https://calamares.io
 .. _AppImageUpdate: https://github.com/AppImage/AppImageUpdate/
 .. _boost-python: https://www.boost.org/doc/libs/1_69_0/libs/python/doc/html/index.html
 .. _MediaElch: https://github.com/Komet/MediaElch/
-
 
