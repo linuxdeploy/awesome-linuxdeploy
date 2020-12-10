@@ -59,3 +59,12 @@ Many projects use linuxdeploy already to build AppDirs (and in most cases AppIma
 .. _boost-python: https://www.boost.org/doc/libs/1_69_0/libs/python/doc/html/index.html
 .. _MediaElch: https://github.com/Komet/MediaElch/
 
+
+Tools using linuxdeploy
+-----------------------
+
+This section is about tools which use linuxdeploy to perform tasks, not projects using it to deploy their apps and/or distribute AppImages.
+
+- hsinstall_ is a tool for deploying Haskell software projects into AppDir-like directories. Uses linuxdeploy to bundle dependencies and build AppImages.
+
+.. _hsinstall: https://hackage.haskell.org/package/hsinstall
