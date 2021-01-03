@@ -23,12 +23,18 @@ Input plugins can be used to bundle additional resources for frameworks, languag
 - linuxdeploy-plugin-conda_ creates a Miniconda environment that can be used to bundle Python software or provide a portable Python interpreter to software that uses Python for scripting.
 - linuxdeploy-plugin-python_ wraps a vanilla Python build inside an AppImage. The primary focus is to provide a close to native Python work environment: ready to use, portable and isolated. It can also be used as a minimalist starting point for a Python based application.
 - linuxdeploy-plugin-checkrt_ is a fork of AppImageKit-checkrt_. The experimental plugin allows for bundling a copy of libstdc++ together with the other libraries, allowing AppImages to ship with newer C++ libraries than the target systems support. This allows for using newer C++ standards on distributions which they normally wouldn't support.
+- linuxdeploy-plugin-gtk_ bundles Gtk+ resources, GLib schemas, and a lot more. Works for both Gtk+ 2 and 3.
+- linuxdeploy-plugin-ncurses_ bundles resources required for ncurses-based applications to run properly.
+- linuxdeploy-plugin-gstreamer_ bundles GStreamer plugins into the AppDir, along with their dependencies.
 
 .. _linuxdeploy-plugin-qt: https://github.com/linuxdeploy/linuxdeploy-plugin-qt
 .. _linuxdeploy-plugin-conda: https://github.com/linuxdeploy/linuxdeploy-plugin-conda
 .. _linuxdeploy-plugin-python: https://github.com/niess/linuxdeploy-plugin-python
 .. _linuxdeploy-plugin-checkrt: https://github.com/linuxdeploy/linuxdeploy-plugin-checkrt
 .. _AppImageKit-checkrt: https://github.com/darealshinji/AppImageKit-checkrt
+.. _linuxdeploy-plugin-gtk: https://github.com/linuxdeploy/linuxdeploy-plugin-gtk
+.. _linuxdeploy-plugin-ncurses: https://github.com/linuxdeploy/linuxdeploy-plugin-ncurses
+.. _linuxdeploy-plugin-gstreamer: https://github.com/linuxdeploy/linuxdeploy-plugin-gstreamer
 
 
 Output plugins
