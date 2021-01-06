@@ -26,6 +26,7 @@ Input plugins can be used to bundle additional resources for frameworks, languag
 - linuxdeploy-plugin-gtk_ bundles Gtk+ resources, GLib schemas, and a lot more. Works for both Gtk+ 2 and 3.
 - linuxdeploy-plugin-ncurses_ bundles resources required for ncurses-based applications to run properly.
 - linuxdeploy-plugin-gstreamer_ bundles GStreamer plugins into the AppDir, along with their dependencies.
+- misc-plugins_ is a collection of miscellaneous linuxdeploy plugin scripts.
 
 .. _linuxdeploy-plugin-qt: https://github.com/linuxdeploy/linuxdeploy-plugin-qt
 .. _linuxdeploy-plugin-conda: https://github.com/linuxdeploy/linuxdeploy-plugin-conda
@@ -35,6 +36,7 @@ Input plugins can be used to bundle additional resources for frameworks, languag
 .. _linuxdeploy-plugin-gtk: https://github.com/linuxdeploy/linuxdeploy-plugin-gtk
 .. _linuxdeploy-plugin-ncurses: https://github.com/linuxdeploy/linuxdeploy-plugin-ncurses
 .. _linuxdeploy-plugin-gstreamer: https://github.com/linuxdeploy/linuxdeploy-plugin-gstreamer
+.. _misc-plugins: https://github.com/linuxdeploy/misc-plugins
 
 
 Output plugins
