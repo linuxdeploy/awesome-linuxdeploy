@@ -44,8 +44,10 @@ Output plugins
 Output plugins can be used to automatically create output formats like `AppImages <https://appimage.org>`_ from the AppDir in a single call. They can be enabled by adding :code:`--output <name>`, e.g., :code:`--output appimage`.
 
 - linuxdeploy-plugin-appimage_
+- linuxdeploy-plugin-native_packages_
 
 .. _linuxdeploy-plugin-appimage: https://github.com/linuxdeploy/linuxdeploy-plugin-appimage
+.. _linuxdeploy-plugin-native_packages: https://github.com/linuxdeploy/linuxdeploy-plugin-native_packages
 
 
 Projects using linuxdeploy
