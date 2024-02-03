@@ -75,5 +75,7 @@ Tools using linuxdeploy
 This section is about tools which use linuxdeploy to perform tasks, not projects using it to deploy their apps and/or distribute AppImages.
 
 - hsinstall_ is a tool for deploying Haskell software projects into AppDir-like directories. Uses linuxdeploy to bundle dependencies and build AppImages.
+- linuxdeploy-build-helper_ is an unofficial GitHub action that aims to help build AppImages using linuxdeploy.
 
 .. _hsinstall: https://hackage.haskell.org/package/hsinstall
+.. _linuxdeploy-build-helper: https://github.com/andy5995/linuxdeploy-build-helper/
