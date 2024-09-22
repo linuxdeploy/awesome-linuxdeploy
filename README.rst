@@ -50,6 +50,16 @@ Output plugins can be used to automatically create output formats like `AppImage
 .. _linuxdeploy-plugin-native_packages: https://github.com/linuxdeploy/linuxdeploy-plugin-native_packages
 
 
+Miscellaneous
+-----------------------
+
+These are tools or other projects related to linuxdeploy that don't fit into any other category.
+
+- linuxdeploy-build-helper-container_ Docker container that aims to help build an AppImage on multiple architectures using linuxdeploy
+
+.. _linuxdeploy-build-helper-container: https://github.com/andy5995/linuxdeploy-build-helper-container
+
+
 Projects using linuxdeploy
 --------------------------
 
