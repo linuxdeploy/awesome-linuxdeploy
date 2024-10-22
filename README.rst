@@ -56,8 +56,10 @@ Miscellaneous
 These are tools or other projects related to linuxdeploy that don't fit into any other category.
 
 - linuxdeploy-build-helper-container_ Docker container that aims to help build an AppImage on multiple architectures using linuxdeploy
+- install-linuxdeploy_ action for installing linuxdeploy, with optional plugins, in a GitHub workflow.
 
 .. _linuxdeploy-build-helper-container: https://github.com/andy5995/linuxdeploy-build-helper-container
+.. _install-linuxdeploy: https://github.com/pcolby/install-linuxdeploy
 
 
 Projects using linuxdeploy
